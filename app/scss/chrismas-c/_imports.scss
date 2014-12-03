@@ -39,6 +39,8 @@
  * don’t intend to replicate. This is where we can combine multiple quarks and atoms, without
  * interfering with any of our global styles.
  */
+@import "molecules/_primary-menu";
+@import "molecules/_scene";
 
 /** Organisms
 ========================================================================== */
@@ -47,6 +49,8 @@
  * they possibly constitue the main goal of a template. The CSS rules here, has to be organism centric and
  * specific.
  */
+@import "organisms/_header";
+@import "organisms/_environment";
 
 /** Templates
 ========================================================================== */

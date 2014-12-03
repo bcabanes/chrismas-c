@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Primary menu
+   ========================================================================== */
+
+.primary-menu{
+    margin: 0 auto;
+    display: inline-block;
+
+    a{
+        color: $secondary-color;
+        padding: 10px;
+        display: block;
+        float: left;
+        text-decoration: none;
+
+        &:hover,
+        &.active{
+            color: $primary-color;
+        }
+    }
+}
