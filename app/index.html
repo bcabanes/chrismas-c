@@ -30,7 +30,7 @@
     <body>
 
         <header class="header">
-          <nav class="menu">
+          <nav class="primary-menu">
               <a href="#layer1" class="menu__item">1</a>
 
               <a href="#layer2" class="menu__item">2</a>
@@ -83,14 +83,16 @@
             footer here
         </footer>
 
-        <!-- build:js /js/vendor/jquery.min.js -->
+        <!-- build:js /js/vendor/vendors.min.js -->
         <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/underscore/underscore.js"></script>
         <!-- endbuild -->
 
 
 
         <!-- Load Modules -->
         <!-- build:js /js/app.js -->
+        <script src="/js/modules/utils.js"></script>
         <script src="/js/app.js"></script>
         <!-- endbuild -->
         <!-- end of Load Modules -->
