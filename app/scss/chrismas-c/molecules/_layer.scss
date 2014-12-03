@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Layer
+   ========================================================================== */
+
+.layer{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height: 300px;
+        margin: -150px 0 0 -150px;
+        font-size: 10px;
+        color: #fff;
+        padding: 5px;
+    }
+}
+
+#layer1 h1 {
+    -webkit-box-shadow: 0 0 0 600px #4CC1E3;
+    -moz-box-shadow: 0 0 0 600px #4CC1E3;
+    -o-box-shadow: 0 0 0 600px #4CC1E3;
+    box-shadow: 0 0 0 600px #4CC1E3;
+}
+#layer2 h1 {
+    -webkit-box-shadow: 0 0 0 600px #4BA0BF;
+    -moz-box-shadow: 0 0 0 600px #4BA0BF;
+    -o-box-shadow: 0 0 0 600px #4BA0BF;
+    box-shadow: 0 0 0 600px #4BA0BF;
+}
+#layer3 h1 {
+    -webkit-box-shadow: 0 0 0 600px #497F9A;
+    -moz-box-shadow: 0 0 0 600px #497F9A;
+    -o-box-shadow: 0 0 0 600px #497F9A;
+    box-shadow: 0 0 0 600px #497F9A;
+}
+#layer4 h1 {
+    -webkit-box-shadow: 0 0 0 600px #465D76;
+    -moz-box-shadow: 0 0 0 600px #465D76;
+    -o-box-shadow: 0 0 0 600px #465D76;
+    box-shadow: 0 0 0 600px #465D76;
+}
+#layer5 h1 {
+    -webkit-box-shadow: 0 0 0 600px #46455B;
+    -moz-box-shadow: 0 0 0 600px #46455B;
+    -o-box-shadow: 0 0 0 600px #46455B;
+    box-shadow: 0 0 0 600px #46455B;
+}
+#layer6 h1 {
+    -webkit-box-shadow: 0 0 0 600px #442B3F;
+    -moz-box-shadow: 0 0 0 600px #442B3F;
+    -o-box-shadow: 0 0 0 600px #442B3F;
+    box-shadow: 0 0 0 600px #442B3F;
+}

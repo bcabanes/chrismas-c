@@ -5,10 +5,22 @@
 .environment{
     height: 100%;
     left: 0;
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    -ms-perspective: 500px;
+    -o-perspective: 500px;
     perspective: 500px;
+    -webkit-perspective-origin: center center;
+    -moz-perspective-origin: center center;
+    -ms-perspective-origin: center center;
+    -o-perspective-origin: center center;
     perspective-origin: center center;
     position: absolute;
     top: 0;
+    -webkit-transform: perspective(500px);
+    -moz-transform: perspective(500px);
+    -ms-transform: perspective(500px);
+    -o-transform: perspective(500px);
     transform: perspective(500px);
     width: 100%;
 }

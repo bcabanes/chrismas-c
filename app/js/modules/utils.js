@@ -1,18 +1,15 @@
 /* global jQuery */
-(function($) {
+var utils = (function($) {
     'use strict';
+    return {
+        createNodes: function(list) {
+            var result = {};
 
-    var utils = function() {
-        return {
-            createNodes: function(list) {
-                var result = {};
-
-                for(var key in list) {
-                    result[key] = $(list[key]);
-                }
-
-                return result;
+            for(var key in list) {
+                result[key] = $(list[key]);
             }
-        };
+
+            return result;
+        }
     };
 })(jQuery);

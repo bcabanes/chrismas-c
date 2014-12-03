@@ -24,6 +24,7 @@
  * Styles reserved for default HTML elements only. Default paragraphs, links, lists and micros. Style
  * guide stuff.
  */
+@import "quarks/_body";
 
 /** Atoms
 ========================================================================== */
@@ -39,6 +40,7 @@
  * don’t intend to replicate. This is where we can combine multiple quarks and atoms, without
  * interfering with any of our global styles.
  */
+@import "molecules/_layer";
 @import "molecules/_primary-menu";
 @import "molecules/_scene";
 
