@@ -3,8 +3,15 @@
    ========================================================================== */
 
 .environment{
-    height: 100%;
+    position: absolute;
+    top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: perspective(500px);
+    -moz-transform: perspective(500px);
+    -o-transform: perspective(500px);
+    transform: perspective(500px);
     -webkit-perspective: 500px;
     -moz-perspective: 500px;
     -ms-perspective: 500px;
@@ -15,12 +22,4 @@
     -ms-perspective-origin: center center;
     -o-perspective-origin: center center;
     perspective-origin: center center;
-    position: absolute;
-    top: 0;
-    -webkit-transform: perspective(500px);
-    -moz-transform: perspective(500px);
-    -ms-transform: perspective(500px);
-    -o-transform: perspective(500px);
-    transform: perspective(500px);
-    width: 100%;
 }
