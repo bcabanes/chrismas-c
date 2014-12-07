@@ -17,33 +17,65 @@
 #layer1{
     background-image: url('/medias/images/01.png');
     background-size: cover;
+    -webkit-transform: translate3d(-0.1%, -0.8%, 0px);
+    -moz-transform: translate3d(-0.1%, -0.8%, 0px);
+    -ms-transform: translate3d(-0.1%, -0.8%, 0px);
+    -o-transform: translate3d(-0.1%, -0.8%, 0px);
     transform: translate3d(-0.1%, -0.8%, 0px);
 }
 #layer2{
     background-image: url('/medias/images/04.png');
+    -webkit-transform: translate3d(0, 0, -500px);
+    -moz-transform: translate3d(0, 0, -500px);
+    -ms-transform: translate3d(0, 0, -500px);
+    -o-transform: translate3d(0, 0, -500px);
     transform: translate3d(0, 0, -500px);
 }
 #layer3{
     background-image: url('/medias/images/05.png');
+    -webkit-transform: translate3d(0, 0, -700px);
+    -moz-transform: translate3d(0, 0, -700px);
+    -ms-transform: translate3d(0, 0, -700px);
+    -o-transform: translate3d(0, 0, -700px);
     transform: translate3d(0, 0, -700px);
 }
 #layer4{
     background-image: url('/medias/images/06.png');
+    -webkit-transform: translate3d(0, 0, -900px);
+    -moz-transform: translate3d(0, 0, -900px);
+    -ms-transform: translate3d(0, 0, -900px);
+    -o-transform: translate3d(0, 0, -900px);
     transform: translate3d(0, 0, -900px);
 }
 #layer5{
     background-image: url('/medias/images/07.png');
+    -webkit-transform: translate3d(0, 0, -1100px);
+    -moz-transform: translate3d(0, 0, -1100px);
+    -ms-transform: translate3d(0, 0, -1100px);
+    -o-transform: translate3d(0, 0, -1100px);
     transform: translate3d(0, 0, -1100px);
 }
 #layer6{
     background-image: url('/medias/images/08.png');
+    -webkit-transform: translate3d(0, 0, -1500px);
+    -moz-transform: translate3d(0, 0, -1500px);
+    -ms-transform: translate3d(0, 0, -1500px);
+    -o-transform: translate3d(0, 0, -1500px);
     transform: translate3d(0, 0, -1500px);
 }
 #layer7{
     background-image: url('/medias/images/09.png');
+    -webkit-transform: translate3d(0, 0, -1700px);
+    -moz-transform: translate3d(0, 0, -1700px);
+    -ms-transform: translate3d(0, 0, -1700px);
+    -o-transform: translate3d(0, 0, -1700px);
     transform: translate3d(0, 0, -1700px);
 }
 #layer8{
     background-image: url('/medias/images/finale.jpg');
+    -webkit-transform: translate3d(0, 0, -2300px);
+    -moz-transform: translate3d(0, 0, -2300px);
+    -ms-transform: translate3d(0, 0, -2300px);
+    -o-transform: translate3d(0, 0, -2300px);
     transform: translate3d(0, 0, -2300px);
 }
