@@ -1,3 +1,4 @@
+/* global utils */
 var zoom = (function($) {
     'use strict';
 
