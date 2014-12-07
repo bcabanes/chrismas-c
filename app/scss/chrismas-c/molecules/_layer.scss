@@ -3,74 +3,47 @@
    ========================================================================== */
 
 .layer{
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 100%;
     left: 0;
+    /* pointer-event: none; */
     position: absolute;
     top: 0;
     width: 100%;
-
-    h1 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
-        margin: auto auto;
-        font-size: 10px;
-        color: #fff;
-        padding: 5px;
-    }
 }
 
-#layer1{ background: url('/medias/images/01.png') center center no-repeat; }
-#layer2{ background: url('/medias/images/04.png') center center no-repeat; }
-#layer3{ background: url('/medias/images/05.png') center center no-repeat; }
-#layer4{ background: url('/medias/images/06.png') center center no-repeat; }
-#layer5{ background: url('/medias/images/07.png') center center no-repeat; }
-#layer6{ background: url('/medias/images/08.png') center center no-repeat; }
-#layer6{ background: url('/medias/images/09.png') center center no-repeat; }
-#layer6{ background: url('/medias/images/ahcommelaneigeaneige.jpg') center center no-repeat; }
-
-
-
-/* #layer1 h1 {
-    -webkit-box-shadow: 0 0 0 600px \$blue;
-    -moz-box-shadow: 0 0 0 600px \$blue;
-    -o-box-shadow: 0 0 0 600px \$blue;
-    box-shadow: 0 0 0 600px \$blue;
-} */
-/* #layer2 h1 {
-    -webkit-box-shadow: 0 0 0 600px #4BA0BF;
-    -moz-box-shadow: 0 0 0 600px #4BA0BF;
-    -o-box-shadow: 0 0 0 600px #4BA0BF;
-    box-shadow: 0 0 0 600px #4BA0BF;
-} */
-/* #layer3 h1 {
-    -webkit-box-shadow: 0 0 0 600px #497F9A;
-    -moz-box-shadow: 0 0 0 600px #497F9A;
-    -o-box-shadow: 0 0 0 600px #497F9A;
-    box-shadow: 0 0 0 600px #497F9A;
-} */
-/* #layer4 h1 {
-    -webkit-box-shadow: 0 0 0 600px #465D76;
-    -moz-box-shadow: 0 0 0 600px #465D76;
-    -o-box-shadow: 0 0 0 600px #465D76;
-    box-shadow: 0 0 0 600px #465D76;
+#layer1{
+    background-image: url('/medias/images/01.png');
+    background-size: cover;
+    transform: translate3d(-0.1%, -0.8%, 0px);
 }
- */
-/* #layer5 h1 {
-    -webkit-box-shadow: 0 0 0 600px #46455B;
-    -moz-box-shadow: 0 0 0 600px #46455B;
-    -o-box-shadow: 0 0 0 600px #46455B;
-    box-shadow: 0 0 0 600px #46455B;
+#layer2{
+    background-image: url('/medias/images/04.png');
+    transform: translate3d(0, 0, -500px);
 }
- */
-/* #layer6 h1 {
-    -webkit-box-shadow: 0 0 0 600px #442B3F;
-    -moz-box-shadow: 0 0 0 600px #442B3F;
-    -o-box-shadow: 0 0 0 600px #442B3F;
-    box-shadow: 0 0 0 600px #442B3F;
+#layer3{
+    background-image: url('/medias/images/05.png');
+    transform: translate3d(0, 0, -700px);
 }
- */
+#layer4{
+    background-image: url('/medias/images/06.png');
+    transform: translate3d(0, 0, -900px);
+}
+#layer5{
+    background-image: url('/medias/images/07.png');
+    transform: translate3d(0, 0, -1100px);
+}
+#layer6{
+    background-image: url('/medias/images/08.png');
+    transform: translate3d(0, 0, -1500px);
+}
+#layer7{
+    background-image: url('/medias/images/09.png');
+    transform: translate3d(0, 0, -1700px);
+}
+#layer8{
+    background-image: url('/medias/images/finale.jpg');
+    transform: translate3d(0, 0, -2300px);
+}

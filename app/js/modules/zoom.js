@@ -86,11 +86,11 @@ console.log(layer);
             setDepth();
 
             // Set layer z position
-            $.each(nodes.layers, function() {
-                var layer = $(this);
-
-                setZPosition(layer, -layer.data('depth'));
-            });
+            // $.each(nodes.layers, function() {
+            //     var layer = $(this);
+            //
+            //     setZPosition(layer, -layer.data('depth'));
+            // });
 
             // Set initial position
             zoomScene();
