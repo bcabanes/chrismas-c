@@ -11,11 +11,12 @@ var zoom = (function($) {
             layers: '.layer',
             depth: '.scene__depth',
             menu: '.primary-menu',
-            anchor: 'a[href^="#"]'
+            anchor: 'a[href^="#"]',
+            audio: 'audio'
         },
         classes = { activeMenu: 'active' },
         distance = 500,
-        speed = 2000,
+        speed = 60000,
         current = {
             layer: 0,
             progress: 0,
@@ -52,7 +53,6 @@ var zoom = (function($) {
             var layer = $('.layer[data-depth="'+position*distance+'"]');
             nodes.menu.find('.'+classes.activeMenu).removeClass(classes.activeMenu);
             nodes.menu.find('a[href="#'+layer.attr('id')+'"]').addClass(classes.activeMenu);
-console.log(layer);
             current.menu = position;
 
         }
@@ -106,6 +106,12 @@ console.log(layer);
             // Anchors
             nodes.anchor.on('click', function(event) {
                 var target = $($(this).attr('href')).data('depth');
+
+                if($(this).hasClass('start')) {
+                    var music = nodes.audio.get(0);
+                    music.play();
+                }
+
                 scrollToLayer(target);
                 event.preventDefault();
             });
