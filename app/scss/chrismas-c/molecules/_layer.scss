@@ -17,11 +17,11 @@
 #layer1{
     background-image: url('/medias/images/01.png');
     background-size: cover;
-    -webkit-transform: translate3d(-0.1%, -0.8%, 0px);
-    -moz-transform: translate3d(-0.1%, -0.8%, 0px);
-    -ms-transform: translate3d(-0.1%, -0.8%, 0px);
-    -o-transform: translate3d(-0.1%, -0.8%, 0px);
-    transform: translate3d(-0.1%, -0.8%, 0px);
+    -webkit-transform: translate3d(-0.1%, -0.8%, 0px) scale(1.5);
+    -moz-transform: translate3d(-0.1%, -0.8%, 0px) scale(1.5);
+    -ms-transform: translate3d(-0.1%, -0.8%, 0px) scale(1.5);
+    -o-transform: translate3d(-0.1%, -0.8%, 0px) scale(1.5);
+    transform: translate3d(-0.1%, -0.8%, 0px) scale(1.5);
 }
 #layer2{
     background-image: url('/medias/images/04.png');
