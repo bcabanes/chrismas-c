@@ -11,50 +11,66 @@
 
     h1 {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 300px;
-        height: 300px;
-        margin: -150px 0 0 -150px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        margin: auto auto;
         font-size: 10px;
         color: #fff;
         padding: 5px;
     }
 }
 
-#layer1 h1 {
-    -webkit-box-shadow: 0 0 0 600px #4CC1E3;
-    -moz-box-shadow: 0 0 0 600px #4CC1E3;
-    -o-box-shadow: 0 0 0 600px #4CC1E3;
-    box-shadow: 0 0 0 600px #4CC1E3;
-}
-#layer2 h1 {
+#layer1{ background: url('/medias/images/01.png') center center no-repeat; }
+#layer2{ background: url('/medias/images/04.png') center center no-repeat; }
+#layer3{ background: url('/medias/images/05.png') center center no-repeat; }
+#layer4{ background: url('/medias/images/06.png') center center no-repeat; }
+#layer5{ background: url('/medias/images/07.png') center center no-repeat; }
+#layer6{ background: url('/medias/images/08.png') center center no-repeat; }
+#layer6{ background: url('/medias/images/09.png') center center no-repeat; }
+#layer6{ background: url('/medias/images/ahcommelaneigeaneige.jpg') center center no-repeat; }
+
+
+
+/* #layer1 h1 {
+    -webkit-box-shadow: 0 0 0 600px \$blue;
+    -moz-box-shadow: 0 0 0 600px \$blue;
+    -o-box-shadow: 0 0 0 600px \$blue;
+    box-shadow: 0 0 0 600px \$blue;
+} */
+/* #layer2 h1 {
     -webkit-box-shadow: 0 0 0 600px #4BA0BF;
     -moz-box-shadow: 0 0 0 600px #4BA0BF;
     -o-box-shadow: 0 0 0 600px #4BA0BF;
     box-shadow: 0 0 0 600px #4BA0BF;
-}
-#layer3 h1 {
+} */
+/* #layer3 h1 {
     -webkit-box-shadow: 0 0 0 600px #497F9A;
     -moz-box-shadow: 0 0 0 600px #497F9A;
     -o-box-shadow: 0 0 0 600px #497F9A;
     box-shadow: 0 0 0 600px #497F9A;
-}
-#layer4 h1 {
+} */
+/* #layer4 h1 {
     -webkit-box-shadow: 0 0 0 600px #465D76;
     -moz-box-shadow: 0 0 0 600px #465D76;
     -o-box-shadow: 0 0 0 600px #465D76;
     box-shadow: 0 0 0 600px #465D76;
 }
-#layer5 h1 {
+ */
+/* #layer5 h1 {
     -webkit-box-shadow: 0 0 0 600px #46455B;
     -moz-box-shadow: 0 0 0 600px #46455B;
     -o-box-shadow: 0 0 0 600px #46455B;
     box-shadow: 0 0 0 600px #46455B;
 }
-#layer6 h1 {
+ */
+/* #layer6 h1 {
     -webkit-box-shadow: 0 0 0 600px #442B3F;
     -moz-box-shadow: 0 0 0 600px #442B3F;
     -o-box-shadow: 0 0 0 600px #442B3F;
     box-shadow: 0 0 0 600px #442B3F;
 }
+ */
