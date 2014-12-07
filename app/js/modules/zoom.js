@@ -1,6 +1,6 @@
 var zoom = (function($) {
     'use strict';
-    
+
     // Private attributes
     var selectors = {
             document: document,
@@ -50,10 +50,12 @@ var zoom = (function($) {
         if(position !== current.menu) {
             var layer = $('.layer[data-depth="'+position*distance+'"]');
             nodes.menu.find('.'+classes.activeMenu).removeClass(classes.activeMenu);
-            nodes.menu.find('a[href="'+layer.attr('id')+'"]');
-
+            nodes.menu.find('a[href="#'+layer.attr('id')+'"]').addClass(classes.activeMenu);
+console.log(layer);
             current.menu = position;
+
         }
+
     }
 
     function setZPosition(element, z) {
