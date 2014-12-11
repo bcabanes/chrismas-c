@@ -1,4 +1,4 @@
-/* global utils */
+/* global jQuery, _, utils */
 var zoom = (function($) {
     'use strict';
 
@@ -13,7 +13,9 @@ var zoom = (function($) {
             menu: '.primary-menu',
             anchor: 'a[href^="#"]',
             audio: 'audio',
-            cover: '.cover'
+            backgroundWhite: '.background.white',
+            happyHolidays: '.happy-holidays',
+            textHolidays: '.text-holidays'
         },
         classes = { activeMenu: 'active' },
         distance = 500,
@@ -38,25 +40,19 @@ var zoom = (function($) {
         current.layer = (scroll / distance) || 0;
         current.progress = (scroll - (current.layer * distance)) / distance;
         current.overallProgress = (scroll / (distance * layers));
+        current.scroll = scroll;
 
         // Adjust scene
         setZPosition(nodes.scene, scroll);
 
-        setActive();
-    }
+        // Hide white background
+        setOpacity(nodes.backgroundWhite, 700, 750);
 
-    function setActive() {
-        // update menu
-        var position = current.layer + Math.round(current.progress);
-
-        if(position !== current.menu) {
-            var layer = $('.layer[data-depth="'+position*distance+'"]');
-            nodes.menu.find('.'+classes.activeMenu).removeClass(classes.activeMenu);
-            nodes.menu.find('a[href="#'+layer.attr('id')+'"]').addClass(classes.activeMenu);
-            current.menu = position;
-
-        }
-
+console.log(current.scroll);
+        // Hide happy holidays
+        setOpacity(nodes.happyHolidays, 3300, 3500);
+        // Display
+        setOpacity(nodes.textHolidays, 3400, 3600, true);
     }
 
     function setZPosition(element, z) {
@@ -67,15 +63,21 @@ var zoom = (function($) {
         });
     }
 
-    function scrollToLayer(target) {
-        nodes.body.stop(true).animate({
-            'scrollTop': target
-        }, speed);
+    function setOpacity(element, min, max, reverse) {
+        var opacity = 1;
+        if (current.scroll >= min && current.scroll <= max) {
+            opacity = (current.scroll >= min ? (current.scroll <= max ? (max - current.scroll) / (max - min) : 0) : 1);
+        } else if (current.scroll < min) {
+            opacity = 1;
+        } else if (current.scroll > max) {
+            opacity = 0;
+        }
+        element.toggle((reverse && current.scroll > min) || !reverse).css('opacity', (reverse ? 1 - opacity : opacity));
     }
 
     function setDepth() {
         layers = nodes.layers.length;
-        depth = (distance * (layers - 2)) + nodes.window.height();
+        depth = (distance * (layers - 1.8)) + nodes.window.height();
         nodes.depth.css('height', depth+'px');
     }
 
