@@ -29,25 +29,31 @@
     </head>
     <body>
 
-        <header class="header">
-          <nav class="primary-menu">
-              <a href="#layer1" class="menu__item back">back</a>
-              <a href="#layer8" class="menu__item start">start</a>
-          </nav>
-        </header>
+<!--         <header class="header">
+  <nav class="primary-menu">
+      <a href="#layer1" class="menu__item back">back</a>
+      <a href="#layer8" class="menu__item start">start</a>
+  </nav>
+</header> -->
 
         <div class="wrapper">
             <div class="environment">
                 <div class="scene">
 
-                    <div id="layer1" class="layer" data-depth="0"></div>
-                    <div id="layer2" class="layer" data-depth="500"></div>
+                    <div class="layer mask" data-depth="0"></div>
+                    <div class="layer cover" data-depth="500">
+                        <img src="/medias/images/cover-text.svg" alt="cover text" class="cover-text">
+                    </div>
+
+
+
+                    <!-- <div id="layer2" class="layer" data-depth="500"></div>
                     <div id="layer3" class="layer" data-depth="700"></div>
                     <div id="layer4" class="layer" data-depth="900"></div>
                     <div id="layer5" class="layer" data-depth="1100"></div>
                     <div id="layer6" class="layer" data-depth="1500"></div>
                     <div id="layer7" class="layer" data-depth="1700"></div>
-                    <div id="layer8" class="layer" data-depth="2300"></div>
+                    <div id="layer8" class="layer" data-depth="2300"></div> -->
 
                 </div>
             </div>
