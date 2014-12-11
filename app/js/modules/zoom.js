@@ -12,11 +12,13 @@ var zoom = (function($) {
             depth: '.scene__depth',
             menu: '.primary-menu',
             anchor: 'a[href^="#"]',
-            audio: 'audio'
+            audio: 'audio',
+            cover: '.cover'
         },
         classes = { activeMenu: 'active' },
         distance = 500,
         current = {
+            scroll: 0,
             layer: 0,
             progress: 0,
             menu: ''
@@ -40,7 +42,6 @@ var zoom = (function($) {
         // Adjust scene
         setZPosition(nodes.scene, scroll);
 
-        // update menu and layer
         setActive();
     }
 
@@ -86,13 +87,6 @@ var zoom = (function($) {
             // Set environment depth
             setDepth();
 
-            // Set layer z position
-            // $.each(nodes.layers, function() {
-            //     var layer = $(this);
-            //
-            //     setZPosition(layer, -layer.data('depth'));
-            // });
-
             // Set initial position
             zoomScene();
 
@@ -102,14 +96,6 @@ var zoom = (function($) {
 
             // Resize
             nodes.window.on('resize', setDepth);
-
-            // Anchors
-            nodes.anchor.on('click', function(event) {
-                var target = $($(this).attr('href')).data('depth');
-
-                scrollToLayer(target);
-                event.preventDefault();
-            });
         }
     };
 })(jQuery);

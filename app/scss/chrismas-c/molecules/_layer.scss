@@ -41,21 +41,14 @@
     -o-transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
     transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
 }
-    .layer.cover img{
-        width: 120px;
-
-        @media all and (min-width: $breakpoint-medium){ width: 180px; }
-    }
-
-
 
 .layer.cats-up{
     background-image: url('/medias/images/cats-up.png');
-    -webkit-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
-    -moz-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
-    -ms-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
-    -o-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
-    transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
+    -webkit-transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
 }
 
 .layer.bow1{
