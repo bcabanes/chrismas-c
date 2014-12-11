@@ -16,7 +16,6 @@ var zoom = (function($) {
         },
         classes = { activeMenu: 'active' },
         distance = 500,
-        speed = 60000,
         current = {
             layer: 0,
             progress: 0,
@@ -75,10 +74,11 @@ var zoom = (function($) {
 
     function setDepth() {
         layers = nodes.layers.length;
-        depth = (distance * (layers - 1)) + nodes.window.height();
+        depth = (distance * (layers - 2)) + nodes.window.height();
         nodes.depth.css('height', depth+'px');
     }
 
+    // Public methodes
     return {
         init: function() {
             nodes = utils.createNodes(selectors);

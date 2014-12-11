@@ -13,118 +13,104 @@
     top: 0;
     width: 100%;
 }
-
-.layer.mask{
-    background-image: url('/medias/images/mask.png');
-    background-size: cover;
-    -webkit-transform: translate3d(0%, -1%, 0px) scale(1.2);
-    -moz-transform: translate3d(0%, -1%, 0px) scale(1.2);
-    -ms-transform: translate3d(0%, -1%, 0px) scale(1.2);
-    -o-transform: translate3d(0%, -1%, 0px) scale(1.2);
-    transform: translate3d(0%, -1%, 0px) scale(1.2);
-}
-
-.layer.cover{
-    background-image: url('/medias/images/cover.jpg');
-    background-size: cover;
-    -webkit-transform: translate3d(0, 0, -500px) scale(1.2);
-    -moz-transform: translate3d(0, 0, -500px) scale(1.2);
-    -ms-transform: translate3d(0, 0, -500px) scale(1.2);
-    -o-transform: translate3d(0, 0, -500px) scale(1.2);
-    transform: translate3d(0, 0, -500px) scale(1.2);
-}
-    .layer.cover img{
+    .layer img{
         margin: auto auto;
         bottom: 0;
         left: 0;
         position: absolute;
         right: 0;
         top: 0;
+    }
+
+.layer.mask{
+    background-image: url('/medias/images/mask.png');
+    background-size: cover;
+    -webkit-transform: translate3d(0%, -1%, 0px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0%, -1%, 0px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0%, -1%, 0px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0%, -1%, 0px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0%, -1%, 0px) scale(1.2) rotate(0.1deg);
+}
+
+.layer.cover{
+    background-image: url('/medias/images/cover.jpg');
+    background-size: cover;
+    -webkit-transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
+}
+    .layer.cover img{
         width: 120px;
+
         @media all and (min-width: $breakpoint-medium){ width: 180px; }
     }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#layer2{
-    background-image: url('/medias/images/04.png');
-    -webkit-transform: translate3d(0, 0, -500px);
-    -moz-transform: translate3d(0, 0, -500px);
-    -ms-transform: translate3d(0, 0, -500px);
-    -o-transform: translate3d(0, 0, -500px);
-    transform: translate3d(0, 0, -500px);
+.layer.cats-up{
+    background-image: url('/medias/images/cats-up.png');
+    -webkit-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -900px) scale(1.2) rotate(0.1deg);
 }
-#layer3{
-    background-image: url('/medias/images/05.png');
-    -webkit-transform: translate3d(0, 0, -700px);
-    -moz-transform: translate3d(0, 0, -700px);
-    -ms-transform: translate3d(0, 0, -700px);
-    -o-transform: translate3d(0, 0, -700px);
-    transform: translate3d(0, 0, -700px);
+
+.layer.bow1{
+    background-image: url('/medias/images/bow1.png');
+    -webkit-transform: translate3d(0, 0, -1200px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -1200px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -1200px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -1200px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -1200px) scale(1.2) rotate(0.1deg);
 }
-#layer4{
-    background-image: url('/medias/images/06.png');
-    -webkit-transform: translate3d(0, 0, -900px);
-    -moz-transform: translate3d(0, 0, -900px);
-    -ms-transform: translate3d(0, 0, -900px);
-    -o-transform: translate3d(0, 0, -900px);
-    transform: translate3d(0, 0, -900px);
+
+.layer.bow2{
+    background-image: url('/medias/images/bow2.png');
+    -webkit-transform: translate3d(0, 0, -1600px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -1600px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -1600px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -1600px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -1600px) scale(1.2) rotate(0.1deg);
 }
-#layer5{
-    background-image: url('/medias/images/07.png');
-    -webkit-transform: translate3d(0, 0, -1100px);
-    -moz-transform: translate3d(0, 0, -1100px);
-    -ms-transform: translate3d(0, 0, -1100px);
-    -o-transform: translate3d(0, 0, -1100px);
-    transform: translate3d(0, 0, -1100px);
+
+.layer.cats-check{
+    background-image: url('/medias/images/cats-check.png');
+    -webkit-transform: translate3d(0, 0, -2000px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -2000px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -2000px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -2000px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -2000px) scale(1.2) rotate(0.1deg);
 }
-#layer6{
-    background-image: url('/medias/images/08.png');
-    -webkit-transform: translate3d(0, 0, -1500px);
-    -moz-transform: translate3d(0, 0, -1500px);
-    -ms-transform: translate3d(0, 0, -1500px);
-    -o-transform: translate3d(0, 0, -1500px);
-    transform: translate3d(0, 0, -1500px);
+
+.layer.flowers1{
+    background-image: url('/medias/images/flowers1.png');
+    -webkit-transform: translate3d(0, 0, -2400px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -2400px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -2400px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -2400px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -2400px) scale(1.2) rotate(0.1deg);
 }
-#layer7{
-    background-image: url('/medias/images/09.png');
-    -webkit-transform: translate3d(0, 0, -1700px);
-    -moz-transform: translate3d(0, 0, -1700px);
-    -ms-transform: translate3d(0, 0, -1700px);
-    -o-transform: translate3d(0, 0, -1700px);
-    transform: translate3d(0, 0, -1700px);
+
+.layer.flowers2{
+    background-image: url('/medias/images/flowers2.png');
+    -webkit-transform: translate3d(0, 0, -2800px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -2800px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -2800px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -2800px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -2800px) scale(1.2) rotate(0.1deg);
 }
-#layer8{
-    background-image: url('/medias/images/finale.jpg');
-    -webkit-transform: translate3d(0, 0, -2300px);
-    -moz-transform: translate3d(0, 0, -2300px);
-    -ms-transform: translate3d(0, 0, -2300px);
-    -o-transform: translate3d(0, 0, -2300px);
-    transform: translate3d(0, 0, -2300px);
+
+.layer.messages{
+    -webkit-transform: translate3d(0, 0, -3800px) scale(1.2) rotate(0.1deg);
+    -moz-transform: translate3d(0, 0, -3800px) scale(1.2) rotate(0.1deg);
+    -ms-transform: translate3d(0, 0, -3800px) scale(1.2) rotate(0.1deg);
+    -o-transform: translate3d(0, 0, -3800px) scale(1.2) rotate(0.1deg);
+    transform: translate3d(0, 0, -3800px) scale(1.2) rotate(0.1deg);
 }
+
+    .layer.messages img{
+        width: 100%;
+    }
