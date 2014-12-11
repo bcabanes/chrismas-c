@@ -107,11 +107,6 @@ var zoom = (function($) {
             nodes.anchor.on('click', function(event) {
                 var target = $($(this).attr('href')).data('depth');
 
-                if($(this).hasClass('start')) {
-                    var music = nodes.audio.get(0);
-                    music.play();
-                }
-
                 scrollToLayer(target);
                 event.preventDefault();
             });
