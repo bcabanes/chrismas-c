@@ -21,9 +21,9 @@
             var BV = new $.BigVideo({ useFlashForFirefox: false });
             BV.init();
             BV.show([
-                { type: "video/mp4",  src: "/medias/snow.mp4" },
-                { type: "video/webm", src: "/medias/snow.webm" },
-                { type: "video/ogg",  src: "/medias/snow.ogg" }
+                { type: "video/mp4",  src: "./medias/snow.mp4" },
+                { type: "video/webm", src: "./medias/snow.webm" },
+                { type: "video/ogg",  src: "./medias/snow.ogg" }
                 ], { ambient: false, doLoop: true });
         }
 

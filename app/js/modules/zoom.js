@@ -48,7 +48,6 @@ var zoom = (function($) {
         // Hide white background
         setOpacity(nodes.backgroundWhite, 700, 750);
 
-console.log(current.scroll);
         // Hide happy holidays
         setOpacity(nodes.happyHolidays, 3300, 3500);
         // Display

@@ -23,7 +23,7 @@
     }
 
 .layer.mask{
-    background-image: url('/medias/images/mask.png');
+    background-image: url('./../medias/images/mask.png');
     background-size: cover;
     -webkit-transform: translate3d(0%, -1%, 0px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0%, -1%, 0px) scale(1.2) rotate(0.1deg);
@@ -33,7 +33,7 @@
 }
 
 .layer.cover{
-    background-image: url('/medias/images/cover.jpg');
+    background-image: url('./../medias/images/cover.jpg');
     background-size: cover;
     -webkit-transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0, 0, -500px) scale(1.2) rotate(0.1deg);
@@ -43,7 +43,7 @@
 }
 
 .layer.cats-up{
-    background-image: url('/medias/images/cats-up.png');
+    background-image: url('./../medias/images/cats-up.png');
     -webkit-transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
     -ms-transform: translate3d(0, 0, -1000px) scale(1.2) rotate(0.1deg);
@@ -52,7 +52,7 @@
 }
 
 .layer.bow1{
-    background-image: url('/medias/images/bow1.png');
+    background-image: url('./../medias/images/bow1.png');
     -webkit-transform: translate3d(0, 0, -1400px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0, 0, -1400px) scale(1.2) rotate(0.1deg);
     -ms-transform: translate3d(0, 0, -1400px) scale(1.2) rotate(0.1deg);
@@ -61,7 +61,7 @@
 }
 
 .layer.bow2{
-    background-image: url('/medias/images/bow2.png');
+    background-image: url('./../medias/images/bow2.png');
     -webkit-transform: translate3d(0, 0, -1800px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0, 0, -1800px) scale(1.2) rotate(0.1deg);
     -ms-transform: translate3d(0, 0, -1800px) scale(1.2) rotate(0.1deg);
@@ -70,7 +70,7 @@
 }
 
 .layer.cats-check{
-    background-image: url('/medias/images/cats-check.png');
+    background-image: url('./../medias/images/cats-check.png');
     -webkit-transform: translate3d(0, 0, -2200px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0, 0, -2200px) scale(1.2) rotate(0.1deg);
     -ms-transform: translate3d(0, 0, -2200px) scale(1.2) rotate(0.1deg);
@@ -79,7 +79,7 @@
 }
 
 .layer.flowers1{
-    background-image: url('/medias/images/flowers1.png');
+    background-image: url('./../medias/images/flowers1.png');
     -webkit-transform: translate3d(0, 0, -2600px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0, 0, -2600px) scale(1.2) rotate(0.1deg);
     -ms-transform: translate3d(0, 0, -2600px) scale(1.2) rotate(0.1deg);
@@ -88,7 +88,7 @@
 }
 
 .layer.flowers2{
-    background-image: url('/medias/images/flowers2.png');
+    background-image: url('./../medias/images/flowers2.png');
     -webkit-transform: translate3d(0, 0, -3000px) scale(1.2) rotate(0.1deg);
     -moz-transform: translate3d(0, 0, -3000px) scale(1.2) rotate(0.1deg);
     -ms-transform: translate3d(0, 0, -3000px) scale(1.2) rotate(0.1deg);
