@@ -33,6 +33,7 @@
  * the default relationships that can be used again and again without bloating the codebase.
  */
 @import "atoms/_background";
+@import "atoms/_scroll-icon";
 
 /** Molecules
 ========================================================================== */
@@ -41,8 +42,9 @@
  * don’t intend to replicate. This is where we can combine multiple quarks and atoms, without
  * interfering with any of our global styles.
  */
- @import "molecules/_bigvideo";
+@import "molecules/_bigvideo";
 @import "molecules/_layer";
+@import "molecules/_movie";
 @import "molecules/_primary-menu";
 @import "molecules/_scene";
 
