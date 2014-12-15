@@ -106,9 +106,17 @@
 
     .layer.messages img{ width: 100%; }
     .layer.messages .text-holidays{
-        -webkit-transform: scale(1.5);
-        -moz-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        -o-transform: scale(1.5);
-        transform: scale(1.5);
+        -webkit-transform: scale(2.5);
+        -moz-transform: scale(2.5);
+        -ms-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+
+        @media all and (min-width: $breakpoint-small){
+            -webkit-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            transform: scale(1.5);
+        }
     }
