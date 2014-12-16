@@ -9,27 +9,27 @@
     var isIe = detectIe(),
         isUnderIos8 = isUnderIos8();
 
-    if(isIe || isUnderIos8){
-        experience.remove();
-        movie.show();
-        setMovieDimensions();
-        $(window).on('resize', setMovieDimensions);
-
-    }else{
-        if(!detectmob()){
-            // Background video
-            var BV = new $.BigVideo({ useFlashForFirefox: false });
-            BV.init();
-            BV.show([
-                { type: "video/mp4",  src: "./medias/snow.mp4" },
-                { type: "video/webm", src: "./medias/snow.webm" },
-                { type: "video/ogg",  src: "./medias/snow.ogg" }
-                ], { ambient: false, doLoop: true });
-        }
+    // if(isIe || isUnderIos8){
+    //     experience.remove();
+    //     movie.show();
+    //     setMovieDimensions();
+    //     $(window).on('resize', setMovieDimensions);
+    //
+    // }else{
+    //     if(!detectmob()){
+    //         // Background video
+    //         var BV = new $.BigVideo({ useFlashForFirefox: false });
+    //         BV.init();
+    //         BV.show([
+    //             { type: "video/mp4",  src: "./medias/snow.mp4" },
+    //             { type: "video/webm", src: "./medias/snow.webm" },
+    //             { type: "video/ogg",  src: "./medias/snow.ogg" }
+    //             ], { ambient: false, doLoop: true });
+    //     }
 
         // Init zoom function
         zoom.init();
-    }
+    // }
 
 
     function setMovieDimensions() {
