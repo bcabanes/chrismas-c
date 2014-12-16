@@ -29,7 +29,7 @@
 
         // Init zoom function
         zoom.init();
-    // }
+    }
 
 
     function setMovieDimensions() {
